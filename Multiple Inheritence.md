@@ -59,6 +59,7 @@ obj.display()
 
 ## Output Example :
 <img width="241" height="127" alt="image" src="https://github.com/user-attachments/assets/58d9f13c-75e3-4fc8-8a09-30b13208968d" />
+
 Result :
 Thus the program is obtained and the output is obtained.
 
