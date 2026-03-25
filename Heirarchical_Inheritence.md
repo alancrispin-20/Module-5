@@ -31,6 +31,52 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
-## Sample Output
+class Person:
+
+    def get_data(self):
+        self.name = input("Enter name: ")
+        self.age = int(input("Enter age: "))
+
+class Employee(Person):
+
+    def get_employee(self):
+        self.emp_id = input("Enter Employee ID: ")
+        self.salary = input("Enter Salary: ")
+
+    def display_employee(self):
+        print("Employee Details")
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Employee ID:", self.emp_id)
+        print("Salary:", self.salary)
+
+class Patient(Person):
+
+    def get_patient(self):
+        self.patient_id = input("Enter Patient ID: ")
+        self.disease = input("Enter Disease: ")
+
+    def display_patient(self):
+        print("Patient Details")
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Patient ID:", self.patient_id)
+        print("Disease:", self.disease)
+
+e = Employee()
+e.get_data()
+e.get_employee()
+e.display_employee()
+
+p = Patient()
+p.get_data()
+p.get_patient()
+p.display_patient()
+
+## Sample Output :
+<img width="235" height="478" alt="image" src="https://github.com/user-attachments/assets/608e6d5b-8f6c-4d2b-a651-76ebfe6d9bb5" />
+
+Result :
+Thus the program is excuted and the output is obatined.
+
 
