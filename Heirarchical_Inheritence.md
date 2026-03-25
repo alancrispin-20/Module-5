@@ -64,13 +64,19 @@ class Patient(Person):
         print("Disease:", self.disease)
 
 e = Employee()
+
 e.get_data()
+
 e.get_employee()
+
 e.display_employee()
 
-p = Patient()
-p.get_data()
+p = Patient() 
+
+p.get_data() 
+
 p.get_patient()
+
 p.display_patient()
 
 ## Sample Output :
